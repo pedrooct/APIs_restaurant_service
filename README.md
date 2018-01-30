@@ -11,7 +11,8 @@ It has a interface for ease of use.
 
 This web service is for delivering the information back to the user. The user is able to search for the restaurant based on location, name , street, etc ...  
 He can also make reservation , where the web service is just a midddle man.  
-When the reservation is valid , he will recieve a email with .ICS file (this is not the api).
+When the reservation is valid , he will recieve a email with .ICS file (this is not the api).  
+This API also uses memcached for a quick response.
 
 
 
